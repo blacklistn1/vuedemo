@@ -1,0 +1,6 @@
+:root {
+  --total-width: 90%;
+  --number-of-cols: 4;
+  --screen-sm-min: 320px;
+  --screen-lg-min: 1200px;
+}
