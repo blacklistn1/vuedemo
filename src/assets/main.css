@@ -9,16 +9,30 @@ body {
   color: #143744;
 }
 
+/*
+================
+==== Navbar ====
+================
+*/
+
 .menu {
   width: 100%;
   height: 15vh;
-  padding: 0.5em;
   background-color: #f8f8f8;
+  
+}
+
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu a {
   text-decoration: none;
   padding: 0.3em 0;
+  letter-spacing: 0.07em;
 }
 
 .menu ul {
@@ -33,6 +47,19 @@ body {
 
 .menu ul > li + li {
   margin-left: 1em;
+}
+
+@media (max-width: 768px) {
+  .menu-container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu-container {
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
 .container {
@@ -80,6 +107,16 @@ body {
       var(--total-width) / var(--number-of-cols) * 3
     );
   }
+}
+
+/* 
+=====================
+===== Utilities =====
+=====================
+*/
+
+.h-full {
+  height: 100%;
 }
 
 .text-center {

@@ -3,15 +3,17 @@
     <router-link to="/">Home</router-link>
   </nav> -->
   <!-- <router-view /> -->
-  <nav class="menu flex flex-col items-center justify-center">
-    <h1 class="website-title">Living the simple life</h1>
-    <ul class="flex">
-      <li><a href="">Home</a></li>
-      <li><a href="">About me</a></li>
-      <li><a href="">recent posts</a></li>
-    </ul>
+  <nav class="menu">
+    <div class="menu-container box-border h-full flex">
+      <h1 class="website-title">Living the simple life</h1>
+      <ul class="flex">
+        <li><a href="">Home</a></li>
+        <li><a href="">About me</a></li>
+        <li><a href="">recent posts</a></li>
+      </ul>
+    </div>
   </nav>
-  <div class="container">
+  <div class="container box-border">
 
     <h1 class="text-center">
       Let's start getting <span style="color: #b7832f;">more fancy</span>!
